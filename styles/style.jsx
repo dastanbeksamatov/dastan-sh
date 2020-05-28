@@ -85,9 +85,18 @@ export const style =
     font-size: 1.5rem;
   }
 
-  code {
+  code.light-mode {
     background: #fafafa;
-    border-radius: 5px;
+    border-radius: 5px solid #B4C4B6;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  }  
+  code.dark-mode {
+    background: #fff,
+    font-color: #fff,
+    border-radius: 5px solid #B4C4B6;
     padding: 0.75rem;
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
@@ -135,7 +144,10 @@ export const style =
   }
 
   .logo {
-    height: 1em;
+    height: 2em;
+  }
+  a+a {
+    margin-left: 15px;
   }
 
   @media (max-width: 600px) {

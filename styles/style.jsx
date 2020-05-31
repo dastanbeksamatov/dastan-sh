@@ -85,7 +85,7 @@ export const style =
     font-size: 1.5rem;
   }
 
-  code.light-mode {
+  code{
     background: #fafafa;
     border-radius: 5px solid #B4C4B6;
     padding: 0.75rem;

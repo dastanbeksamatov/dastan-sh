@@ -11,17 +11,17 @@ export default function Home() {
     <Layout>
       <div className="container">
         <Head>
-          <title>Create Next App</title>
+          <title>Personal Website | Dastan</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main>
           <h3 className="title">
-            Dastanbek Samatov
+            Dastan Samatov
           </h3>
 
           <p className="description">
-            <code>Full-Stack Web Developer. Aspiring Data Scientist.</code>
+            <code>I do Full-Stack Web Development and Data Science.</code>
           </p>
           <div className="grid">
             <Link href="/projects">
@@ -33,7 +33,11 @@ export default function Home() {
             <Link href="/notebooks">
               <a className="card">
                 <h3 className="description">Blog/notebooks &rarr;</h3>
+<<<<<<< HEAD
                 <p className="description">I write blogs and jupyter notebooks about football and geography</p>
+=======
+                <p className="description">I write blogs and jupyter notebooks about tech, football and geography</p>
+>>>>>>> f072d3bc95a2d7b15cecd8238acaaab2cfc3a015
               </a>
             </Link>
             <Link href="/resume">  
@@ -48,7 +52,11 @@ export default function Home() {
         </main>
 
         <footer>
+<<<<<<< HEAD
           <a href="https://linkedin.com/dastanbeksamatov" target="blank">
+=======
+          <a href="https://linkedin.com/in/dastanbek-samatov-30ab71128" target="blank">
+>>>>>>> f072d3bc95a2d7b15cecd8238acaaab2cfc3a015
             <IoLogoLinkedin className="logo" size={35} />
           </a>
           <a href="https://github.com/dastanbeksamatov" target="blank">
